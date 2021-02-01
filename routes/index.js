@@ -8,4 +8,6 @@ console.log('router loaded');
 //* routes to homepage
 router.get('/', homeController.home);
 
+router.use('/users',require('./users'));
+
 module.exports = router;
