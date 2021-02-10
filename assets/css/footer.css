@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: grey;
+  color: aliceblue; }
+  footer #footer-nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 100px; }
+    footer #footer-nav div {
+      margin: auto; }
+      footer #footer-nav div a {
+        text-decoration: none;
+        color: aliceblue; }
